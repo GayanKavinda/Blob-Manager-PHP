@@ -1,0 +1,30 @@
+# .htaccess for uploads directory
+# Place this file inside the uploads/ folder
+
+# Prevent direct access to all files
+Order Deny,Allow
+Deny from all
+
+# Prevent directory listing
+Options -Indexes
+
+# Prevent execution of PHP files
+<Files *.php>
+    Deny from all
+</Files>
+
+# Prevent access to executable files
+<FilesMatch "\.(php|phtml|php3|php4|php5|pl|py|cgi|asp|aspx|jsp|exe|bat|cmd)$">
+    Deny from all
+</FilesMatch>
+
+# Prevent access to metadata files
+<Files *.meta>
+    Deny from all
+</Files>
+
+# Additional security headers
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-Frame-Options DENY
+</IfModule>

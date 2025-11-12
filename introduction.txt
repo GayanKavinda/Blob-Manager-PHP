@@ -1,0 +1,12 @@
+1. Start the Xampp Server
+2. Open Web Browser
+3. URL : http://localhost/php-blob-manager/blob_manager.php
+4. Upload the DOC or anything 
+5. Enjoy with your Public URL
+--------
+
+For Private usage:
+use base_url as link (ssh verified)
+update bearer_token
+
+and check this again
