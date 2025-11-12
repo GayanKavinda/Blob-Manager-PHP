@@ -10,3 +10,6 @@ use base_url as link (ssh verified)
 update bearer_token
 
 and check this again
+
+if you have any error dm to me.
+Thanks.!
