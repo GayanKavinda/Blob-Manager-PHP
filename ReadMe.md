@@ -34,7 +34,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/php-blob-manager.git
+   git clone https://github.com/GayanKavinda/Blob-Manager-PHP.git
    cd php-blob-manager
    ```
 
